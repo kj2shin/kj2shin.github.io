@@ -21,6 +21,13 @@ body {
 .main {
 	padding-top: 15px;
 	padding-bottom: 50px;
+
+
+}
+
+/** On small devices **/
+@media (max-width: 750px) {
+
 }
 
 
@@ -129,6 +136,28 @@ hr.dotted {
     width: 84%;
 	margin-top: 15px;
     float: left !important;
+
+}
+
+@media screen and (max-width: 765px) {
+	.work-experience .timeline dl dd .time {
+		left: 8%;
+	}
+
+	.work-experience .timeline dl dd .events {
+		margin-top: 47px;
+		left: 8%;
+	}
+
+	.contact {
+		font-size:12px;
+	}
+}
+
+@media screen and (max-width: 464px) {
+	.col-xxs-12 {
+		width: 100%;
+	}
 }
 
 .work-experience .timeline dl dd .events .events-heading {
