@@ -47,10 +47,30 @@ angular.module('app', [])
 			name: 'Laravel'
 		}
 	])
-	.controller('MainCtrl', ['$scope','frontendSkills','backendSkills',
-		function($scope, frontendSkills, backendSkills) {
+	.value('knowledge', [
+		'Teamwork',
+		'Collaboration',
+		'Communication',
+		'Web Standards',
+		'Crossing browser',
+		'UI / UX design',
+		'MVC Framework',
+		'Stored Procedure',
+		'Agile Development',
+		'JIRA',
+		'SVN / Git',
+		'Unit Testing',
+		'Thermodynamics',
+		'Fluid Mechanic',
+		'Mechanics of Materials',
+		'Advanced Calculus',
+		'Dynamics'
+	])
+	.controller('MainCtrl', ['$scope','frontendSkills','backendSkills','knowledge',
+		function($scope, frontendSkills, backendSkills, knowledge) {
 		$scope.frontendSkills = frontendSkills;
 		$scope.backendSkills = backendSkills;
+		$scope.knowledge = knowledge;
 
 		var jsFrameworks = [
 			{

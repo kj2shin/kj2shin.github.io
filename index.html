@@ -33,14 +33,14 @@
 <div class="container main" ng-controller="MainCtrl">
 	<!-- Title -->
 	<div class="row title">
-		<div class="col-lg-3 col-sm-5 col-xs-6  name">Ku Jin Shin<span class="position">(Web Developer)</span></div>
+		<div class="col-lg-3 col-sm-5 col-xs-6  name">Ku Jin Shin<span class="position">(Web Developer, Mechanical Engineer)</span></div>
 
 		<div class="col-lg-4 col-sm-7 col-xs-6  contact">
 			<div class="row">
 				<span class="col-sm-4 hidden-xs" style="width:20%">Contact</span>
 				<span class="col-sm-8  border-left" style="display:block">
 					<i class="fa fa-inbox"></i>. kj2shin@uwaterloo.ca<br>
-					<i class="fa fa-phone"></i>. 123-456-7890
+					<i class="fa fa-phone"></i>. 226-339-3275
 				</span>
 			</div>
 		</div>
@@ -66,14 +66,12 @@
 				<div class="s-body">
 					<p>
 						<i class="fa fa-quote-left fa-3x pull-left "></i>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus at velit sit amet
-						egestas. Praesent sed ligula lacus. Cras vitae sem eu tortor viverra iaculis quis vitae est.
-						Maecenas pellentesque, erat et condimentum sollicitudin, nulla ex dignissim quam, eget elementum
-						purus sapien a libero. Curabitur lacus nunc, dictum blandit consequat vel, cursus molestie ante.
-						Pellentesque at elit sapien. Donec in nibh arcu. Aenean suscipit convallis dictum. Integer eu
-						sagittis enim. Phasellus non lorem non quam fermentum convallis quis sit amet purus. Phasellus
-						ultrices cursus enim quis mattis. Vestibulum cursus mi nec libero maximus imperdiet nec nec
-						diam.
+						I love both programming and mechanical engineering. I started programming since grade 9. I built from the classic 'lemonade stand' to a modern responsive web application.
+						I am fluent in most of the web development languages and process, but I am always open for trying something new.
+						My ultimate goal is to come up with a great idea to collaborate software aspects and mechanical aspects.
+						Something like robotics or AI is my biggest interest now.
+						Also due to the increase in smartphone market, native app development is one of the work that I would like to experience with.
+						Please do not ask me IOS or Android. I like them equally. The same thing goes with MAC and PC.
 					</p>
 				</div>
 			</div>
@@ -128,11 +126,10 @@
 					<div class="row" style="margin-top: 40px">
 						<div class="col-lg-12">
 							<div class="sub-head">Knowledge</div>
-							<span class="label label-default">MVC Framework</span>
-							<span class="label label-default">Stored Procedure</span>
-							<span class="label label-default">Agile Development</span>
-							<span class="label label-default">Unit Testing</span>
-							<span class="label label-default">Primary</span>
+							<div ng-repeat="name in knowledge" style="display:inline-block; padding: 5px 3px;">
+								<span class="label label-default" >{{ name }}</span>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -235,16 +232,12 @@
 											<span class="label label-primary">Primary</span>
 										</div>
 
-										<div class="description hideMe">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit
-											risus, malesuada eu vehicula sed, ultrices sed augue.
-
+										<div class="description">
+											<p>
+												Mercatus enables retailers and advertisers to achieve competitive advantage, boost brand equity, and improve financial performance.
+											</p>
 											<ul>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
+
 											</ul>
 										</div>
 									</div>
@@ -271,16 +264,16 @@
 										</div>
 
 
-										<div class="description hideMe">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit
-											risus, malesuada eu vehicula sed, ultrices sed augue.
+										<div class="description">
+											<p>
+												Mercatus enables retailers and advertisers to achieve competitive advantage, boost brand equity, and improve financial performance.
+											</p>
 
 											<ul>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
+												<li>Created an automated build process for tbe front-end application using the latest and greatest in JavaScript technologies/libraries, improving the page speed by 400% on average</li>
+												<li>Updated the testing structure to include Jasmine spies and more robust DOM management techniques, helping the team to develop solid unit tests which have reduced defects by 70% per feature</li>
+												<li>Contributed heavily to the refactoring and polishing up of client feature requests, helping the team reach the project target successfully</li>
+												<li>Was the primary developer for the third revision of the application which involved a migration to Laravel (a modern php framework), successfully laying out a clean, and scalable front-end solution</li>
 											</ul>
 										</div>
 									</div>
@@ -308,16 +301,16 @@
 										</div>
 
 
-										<div class="description hideMe">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit
-											risus, malesuada eu vehicula sed, ultrices sed augue.
+										<div class="description">
+											<p>
+												GatewayiQ (found at www.gatewayiq.com) is an employee engagement and e-learning system that focuses on training, health & safety, employee benefits education and financial literacy.
+											</p>
 
 											<ul>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
-												<li>Lorem ipsum dolor sit amet</li>
+												<li>UI development and bug fixes using PHP, HTML 5, CSS, AJAX, JavacScript (jQuery)</li>
+												<li>Developed automated pricing system which calculates monthly pricing. The
+													invoice is generated as a PDF and it is emailed to the company’s HR. PCI
+													compliance is achieved with the third party called Braintree.</li>
 											</ul>
 										</div>
 									</div>

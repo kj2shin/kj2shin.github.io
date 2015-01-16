@@ -80,7 +80,7 @@ hr.dotted {
 }
 
 .section {
-    margin-top:80px;
+    margin-top:40px;
 }
 
 .section:first-child {
@@ -185,6 +185,10 @@ hr.dotted {
 .work-experience img {
     width: 64px;
     height: 64px;
+}
+
+.work-experience .description li {
+	padding-bottom: 5px;
 }
 
 .programming-skills .skill {
