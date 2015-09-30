@@ -9,25 +9,25 @@ angular.module('app', [])
 	})
 	.value('frontendSkills', [
 		{
-			name: 'HTML 5',
+			name: 'HTML',
 			level: 6
 		},
 		{
-			name: 'CSS 3',
-			level: 5
+			name: 'CSS',
+			level: 6
 		},
 		{
 			name: 'Javascript',
-			level: 7
+			level: 6
 		},
 		{
 			name: 'jQuery',
-			level: 6
+			level: 5
 		},
 
 		{
 			name: 'Less',
-			level: 6
+			level: 5
 		},
 		{
 			name: 'Bootstrap',
@@ -37,14 +37,27 @@ angular.module('app', [])
 	.value('backendSkills', [
 		{
 			name: 'PHP',
-			level: 7
+			level: 4
 		},
 		{
 			name: 'MySQL',
-			level: 6
+			level: 4
 		},
 		{
-			name: 'Laravel'
+			name: 'Laravel',
+			level: 5
+		},
+		{
+			name: 'Drupal',
+			level: 4
+		},
+		{
+			name: 'Ruby on Rails',
+			level: 4
+		},
+		{
+			name: 'Vagrant',
+			level: 5
 		}
 	])
 	.value('knowledge', [
@@ -60,6 +73,8 @@ angular.module('app', [])
 		'JIRA',
 		'SVN / Git',
 		'Unit Testing',
+		'Data structures / Algorithms',
+		'AutoCAD',
 		'Thermodynamics',
 		'Fluid Mechanic',
 		'Mechanics of Materials',
@@ -78,7 +93,11 @@ angular.module('app', [])
 				level: 6
 			},
 			{
-				name: 'Backbone',
+				name: 'Backbone.JS',
+				level: 5
+			},
+			{
+				name: 'ionic',
 				level: 5
 			}
 		];
