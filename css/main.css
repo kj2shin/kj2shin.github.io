@@ -127,7 +127,7 @@ h3 {
 .timeline-img {
     height: 3em;
     position: absolute;
-    right: 2em;
+    right: 0em;
     top: 1.5em;
 }
 
@@ -170,10 +170,16 @@ h3 {
 
 .timeline-title {
     font-weight:400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .timeline-company {
     font-weight:400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .recommendation {
@@ -251,5 +257,9 @@ h3 {
 
     .hide-mobile {
         display: block;
+    }
+
+    .timeline-img {
+        right: 2em;
     }
 }
