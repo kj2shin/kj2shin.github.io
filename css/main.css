@@ -225,9 +225,6 @@ h3 {
     background: none;
 }
 
-.hide-mobile {
-    display: none;
-}
 
 @media (min-width: 48em) {
     .content {
@@ -255,11 +252,22 @@ h3 {
         float: left;
     }
 
-    .hide-mobile {
-        display: block;
-    }
-
     .timeline-img {
         right: 2em;
+    }
+    .mobile-hide {
+        display: block;
+    }
+    .mobile-show {
+        display: none;
+    }
+}
+
+@media (max-width: 48em) {
+    .mobile-hide {
+        display: none;
+    }
+    .mobile-show {
+        display: block;
     }
 }
