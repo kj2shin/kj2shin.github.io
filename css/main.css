@@ -102,8 +102,8 @@ h3 {
     font-size: 0.9em;
     font-family: "Roboto";
     font-weight: 300;
-    margin-left: 2.3em;
-    margin-right: 2.3em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .timeline-wrapper {
@@ -260,6 +260,11 @@ h3 {
     }
     .mobile-show {
         display: none;
+    }
+
+    .section-description {
+        margin-left: 2.3em;
+        margin-right: 2.3em;
     }
 }
 
