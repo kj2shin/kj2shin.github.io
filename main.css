@@ -1,0 +1,44 @@
+body{
+    font-family: 'Inconsolata', monospace;
+    margin: 2rem 0 5rem;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+a, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #0074d9;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul, li{
+    font-size: 1rem;
+}
+
+.smaller-font {
+    font-size: 1rem;
+}
+
+.quote {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 0.5em;
+}
+
+p {
+    margin-bottom: 2em;
+}
