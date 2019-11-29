@@ -1,2 +1,2 @@
-Ku Jin's personal website repository.
-http://kj2shin.github.io/
+# Ku Jin's personal website/blog repository.
+http://kujinshin.github.io/
