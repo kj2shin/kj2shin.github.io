@@ -3,26 +3,24 @@ layout: page
 title: About
 permalink: /about/
 ---
-<div class="container">
-<h1>Hello,</h1>
-My name is <b>"Ku Jin</b> Shin".
-    <p class="smaller-font">I am a student/researcher doing my Master's
-    degree in Mechanical and Mechatronics
-    Engineering at
-    <a
-        href="https://uwaterloo.ca/mechanical-mechatronics-engineering/">University of Waterloo</a>
-    working under the supervision of
-    <a
-        href="https://uwaterloo.ca/scholar/soojeon/home">Dr.
-        Soo Jeon</a>.
-    <br>
-    My current research focuses on applying <b>Machine Learning</b> to <b>Robotics</b> appliations.
-    <br><br>
-    I am also a freelance developer on my spare time: curretly helping <a href="https://www.viglobal.com/">viGlobal</a> to enhance their <b>UI/UX</b> expereince.
-    <br><br>
-    Reach me @ <a href="https://ca.linkedin.com/in/kujinshin">LinkedIn</a>, <a href="https://github.com/kj2shin">GitHub</a>, <a href="mailto:kujin.shin@gmail.com">Email</a>
-</p>
-<hr>
+My name is "<strong>Ku Jin</strong> Shin".
+
+
+I am a student/researcher doing my Master's degree in Mechanical and Mechatronics Engineering at 
+<a href="https://uwaterloo.ca/mechanical-mechatronics-engineering/">University of Waterloo</a>
+working under the supervision of
+<a href="https://uwaterloo.ca/scholar/soojeon/home">Dr. Soo Jeon</a>.
+
+My current research focuses on applying <strong>Machine Learning</strong> to <strong>Robotics</strong> appliations.
+
+
+I am also a freelance developer on my spare time: curretly helping <a href="https://www.viglobal.com/">viGlobal</a> to enhance their <b>UI/UX</b> expereince.
+
+
+Reach me @ <a href="https://ca.linkedin.com/in/kujinshin">LinkedIn</a>, <a href="https://github.com/kujinshin">GitHub</a>, <a href="mailto:kujin.shin@gmail.com">Email</a>
+
+---
+
 <h2>Experience</h2>
 <p>
     <b>UX Developer</b>
@@ -123,5 +121,5 @@ My name is <b>"Ku Jin</b> Shin".
 
 <hr>
 <div class="footer">
-    &copy; 2018 | Ku Jin Shin | Reach me @ <a href="mailto:kujin.shin@gmail.com">Email</a>
+    &copy; 2019 | Ku Jin Shin | Reach me @ <a href="mailto:kujin.shin@gmail.com">Email</a>
 </div>

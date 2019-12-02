@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ku Jin's Blog
+title: Dev Blog
 email: kujin.shin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello My name is Ku Jin
+  --
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
@@ -32,6 +32,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-time-to-read
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
