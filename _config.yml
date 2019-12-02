@@ -32,7 +32,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-time-to-read
+#  - jekyll-time-to-read
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
