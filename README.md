@@ -3,9 +3,10 @@ http://kujinshin.github.io/
 
 
 # To Do:
-[ ] index page
-    [ ] display titles only
-    [ ] display date | category | reading time (?)
-    [ ] read more button
-[ ] Add categories in the side bar
-[ ] Add Markdown post level navigation
+
+- [ ] index page
+    - [ ] display titles only
+    - [ ] display date | category | reading time (?)
+    - [ ] read more button
+- [ ] Add categories in the side bar
+- [ ] Add Markdown TOC
