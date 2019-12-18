@@ -10,3 +10,5 @@ http://kujinshin.github.io/
     - [ ] read more button
 - [ ] Add categories in the side bar
 - [ ] Add Markdown TOC
+
+- [ ] Generate Template script
