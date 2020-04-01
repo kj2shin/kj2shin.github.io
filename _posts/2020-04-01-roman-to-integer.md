@@ -80,7 +80,7 @@ result = result - previous + current - previous
        = result - 2 * previous + current
 ```
 # Code
-```
+```python
 def romanToInt(s):
     result = 0
     
