@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Roman to Integer
-date: 2020-04-01
+date: 2020-04-01 00:00:00
 categories: algorithm-problem
 tags: [easy, leetcode]
 ---
